@@ -49,6 +49,8 @@
     "eslint-plugin-babel": "^3.2.0",
     "eslint-plugin-react": "^5.1.1",
     "expose-loader": "^0.7.1",
+    "express": "^4.15.2",
+    "express-session": "^1.15.2",
     "file-loader": "^0.9.0",
     "font-awesome": "^4.6.3",
     "font-awesome-webpack": "0.0.4",
@@ -91,7 +93,10 @@
     "webpack-dev-server": "^1.14.1"
   },
   "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "express-session": "^1.15.2",
     "express-sessions": "^1.0.6",
-    "body-parser": "^1.17.1"
+    "md5": "^2.2.1"
   }
 }
